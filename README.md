@@ -1,68 +1,65 @@
 # Chileautos Cars Listings Dataset Sample
 
-<h2>A sample dataset of 17,212 records</h2>
+<h2>Ein Beispieldatensatz mit 17.212 Datensätzen</h2>
 
-<a href="https://brightdata.com">
+<a href="https://brightdata.de">
     <img src="https://github.com/luminati-io/Chileautos-Cars-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-This **Chileautos Cars Listings Dataset Sample** includes **17,212 records** and was extracted using the **Bright Data API**.
+Dieses **Chileautos Cars Listings Dataset Sample** umfasst **17.212 Datensätze** und wurde mithilfe der **Bright Data API** extrahiert.
 
 ## Data Points
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | The direct URL to the individual car listing on the Chileautos website. |
-| `Marca` | The brand or make of the vehicle listed. |
-| `Modelo` | The specific model of the vehicle. |
-| `Ano` | The year the vehicle was manufactured. |
-| `Variante` | The variant or trim level of the vehicle, if applicable. |
-| `Kilometraje` | The total kilometers the vehicle has been driven. |
-| `Condicion` | The condition of the vehicle, indicating whether it is new or used. |
-| `Combustible` | The type of fuel the vehicle uses, such as diesel or petrol. |
-| `Color` | The color of the vehicle's exterior. |
-| `Transmision` | The type of transmission, such as manual or automatic. |
-| `Seller1` | Primary seller's name, often anonymized for privacy. |
-| `Seller2` | Secondary seller's name, if applicable, also anonymized. |
-| `Unico_Dueno` | Indicates if the vehicle has had a single owner. |
-| `description` | A brief description of the vehicle, highlighting its features and condition. |
-| `price` | The asking price for the vehicle in Chilean pesos. |
-| `location` | The geographic location within Chile where the vehicle is available. |
-| `create_date` | The date the listing was created on the platform. |
-| `Image_URL` | URL to an image of the vehicle from the listing. |
-| `phone1` | Primary contact phone number for the seller. |
-| `phone2` | Secondary contact phone number for the seller, if available. |
-| `email` | Contact email for the seller. |
-| `direccion` | The address where the vehicle is located or can be viewed. |
-| `Tipo_de_vendedor` | Category of the seller, such as individual or dealer. |
-| `Comuna` | The specific community or municipality in Chile where the vehicle is listed. |
-| `Propietarios` | Number of previous owners of the vehicle. |
-| `Premium` | Indicates if the listing is a premium advertisement. |
-| `Category` | The category of the vehicle, such as SUV, sedan, etc. |
-| `posting_id` | Unique identifier for the listing on the platform. |
-| `URL` | Another URL field, possibly redundant, for listing access. |
-| `premium` | Duplicate field indicating premium status of the advertisement. |
-| `Seller_ID` | Anonymized unique identifier for the seller. |
-| `codigo_publicacion` | Code or identifier for the publication of the listing. |
-
+| `url` | Die direkte URL zur einzelnen Fahrzeuganzeige auf der Chileautos-Website. |
+| `Marca` | Die Marke bzw. der Hersteller des aufgeführten Fahrzeugs. |
+| `Modelo` | Das spezifische Modell des Fahrzeugs. |
+| `Ano` | Das Jahr, in dem das Fahrzeug hergestellt wurde. |
+| `Variante` | Die Variante bzw. Ausstattungsstufe des Fahrzeugs, falls zutreffend. |
+| `Kilometraje` | Die Gesamtkilometerzahl, die das Fahrzeug gefahren wurde. |
+| `Condicion` | Der Zustand des Fahrzeugs, der angibt, ob es neu oder gebraucht ist. |
+| `Combustible` | Die Art des Kraftstoffs, den das Fahrzeug verwendet, z. B. Diesel oder Benzin. |
+| `Color` | Die Farbe des Fahrzeugexterieurs. |
+| `Transmision` | Die Art des Getriebes, z. B. manuell oder automatisch. |
+| `Seller1` | Name des primären Verkäufers, häufig aus Datenschutzgründen anonymisiert. |
+| `Seller2` | Name des sekundären Verkäufers, falls zutreffend, ebenfalls anonymisiert. |
+| `Unico_Dueno` | Gibt an, ob das Fahrzeug einen einzigen Besitzer hatte. |
+| `description` | Eine kurze Beschreibung des Fahrzeugs, die seine Merkmale und seinen Zustand hervorhebt. |
+| `price` | Der Angebotspreis für das Fahrzeug in chilenischen Pesos. |
+| `location` | Der geografische Standort innerhalb Chiles, an dem das Fahrzeug verfügbar ist. |
+| `create_date` | Das Datum, an dem die Anzeige auf der Plattform erstellt wurde. |
+| `Image_URL` | URL zu einem Bild des Fahrzeugs aus der Anzeige. |
+| `phone1` | Primäre Kontakttelefonnummer des Verkäufers. |
+| `phone2` | Sekundäre Kontakttelefonnummer des Verkäufers, falls verfügbar. |
+| `email` | Kontakt-E-Mail-Adresse des Verkäufers. |
+| `direccion` | Die Adresse, an der sich das Fahrzeug befindet oder besichtigt werden kann. |
+| `Tipo_de_vendedor` | Kategorie des Verkäufers, z. B. Privatperson oder Händler. |
+| `Comuna` | Die spezifische Gemeinde oder Kommune in Chile, in der das Fahrzeug gelistet ist. |
+| `Propietarios` | Anzahl der Vorbesitzer des Fahrzeugs. |
+| `Premium` | Gibt an, ob es sich bei der Anzeige um eine Premium-Werbung handelt. |
+| `Category` | Die Kategorie des Fahrzeugs, z. B. SUV, Limousine usw. |
+| `posting_id` | Eindeutige Kennung der Anzeige auf der Plattform. |
+| `URL` | Ein weiteres URL-Feld, möglicherweise redundant, für den Zugriff auf die Anzeige. |
+| `premium` | Doppelfeld, das den Premium-Status der Werbung angibt. |
+| `Seller_ID` | Anonymisierte eindeutige Kennung des Verkäufers. |
+| `codigo_publicacion` | Code oder Kennung für die Veröffentlichung der Anzeige. |
 
 ## Use Cases
 
-### 1. Market Analysis and Trends
-Analyze market trends in the Chilean automotive sector by examining data on car makes, models, and prices over time.
+### 1. Marktanalyse und Trends
+Analysieren Sie Markttrends im chilenischen Automobilsektor, indem Sie Daten zu Marken, Modellen und Preisen im Zeitverlauf untersuchen.
 
-### 2. Competitive Pricing Strategy
-Utilize the dataset to benchmark vehicle pricing against competitors, aiding in strategic pricing decisions for dealerships.
+### 2. Wettbewerbsfähige Preisstrategie
+Nutzen Sie den Datensatz, um Fahrzeugpreise mit Wettbewerbern zu benchmarken, und unterstützen Sie so strategische Preisentscheidungen für Autohäuser.
 
-### 3. Consumer Behavior Insights
-Study consumer preferences and behaviors by analyzing the condition, transmission, and fuel type preferences in used car listings.
-
-
+### 3. Einblicke in das Konsumentenverhalten
+Untersuchen Sie Präferenzen und Verhaltensweisen von Konsumenten, indem Sie in Gebrauchtwagenanzeigen den Zustand sowie Präferenzen hinsichtlich Getriebe- und Kraftstofftyp analysieren.
 
 ## File Formats
 
-The dataset is available in multiple formats:
-- **CSV** (included in this sample)
+Der Datensatz ist in mehreren Formaten verfügbar:
+- **CSV** (in diesem Sample enthalten)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
@@ -82,8 +79,8 @@ The dataset is available in multiple formats:
 
 ## Update Frequency
 
-Datasets can be updated on various schedules:
-- **Once** (one-time delivery)
+Datensätze können nach verschiedenen Zeitplänen aktualisiert werden:
+- **Once** (einmalige Lieferung)
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -92,14 +89,14 @@ Datasets can be updated on various schedules:
 
 ## Data Enrichment
 
-Enhance your dataset with additional data points based on your specific requirements. Contact us for custom enrichment options.
+Erweitern Sie Ihren Datensatz um zusätzliche Datenpunkte entsprechend Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Enrichment-Optionen.
 
-**[Get the full Chileautos Cars Listings dataset](https://brightdata.com/products/datasets/chileautos)**
+**[Rufen Sie den vollständigen Chileautos Cars Listings-Datensatz ab](https://brightdata.de/products/datasets/chileautos)**
 
 ---
 
-## Free Access for Researchers and NGOs
+## Kostenloser Zugang für Forschende und NGOs
 
-The Bright Initiative offers free access to **[Web Scraper APIs](https://brightdata.com/products/web-scraper)** and **[ready-to-use datasets](https://brightdata.com/products/datasets)** for academic researchers, NGOs, and NPOs working on environmental and social causes. 
+Die Bright Initiative bietet kostenlosen Zugang zu **[Web Scraper APIs](https://brightdata.de/products/web-scraper)** und **[einsatzbereiten Datensätzen](https://brightdata.de/products/datasets)** für akademische Forschende, NGOs und NPOs, die an Umwelt- und Sozialthemen arbeiten. 
 
-Apply for free access at [brightinitiative.com](https://brightinitiative.com).
+Beantragen Sie kostenlosen Zugang unter [brightinitiative.com](https://brightinitiative.com).
