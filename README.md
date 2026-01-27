@@ -3,7 +3,7 @@
 <h2>Ein Beispieldatensatz mit 17.212 Datensätzen</h2>
 
 <a href="https://brightdata.de">
-    <img src="https://github.com/luminati-io/Chileautos-Cars-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+    <img src="https://github.com/bright-data-de/Chileautos-Cars-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
 Dieses **Chileautos Cars Listings Dataset Sample** umfasst **17.212 Datensätze** und wurde mithilfe der **Bright Data API** extrahiert.
