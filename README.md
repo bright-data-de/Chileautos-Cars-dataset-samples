@@ -1,75 +1,78 @@
-# Chileautos Cars Listings Dataset Sample
+# Chileautos Cars Listings Dataset-Beispiel
 
-<h2>Ein Beispieldatensatz mit 17.212 Datensätzen</h2>
+<h2>Ein Beispieldatensatz mit 17.212 Einträgen</h2>
 
 <a href="https://brightdata.de">
     <img src="https://github.com/bright-data-de/Chileautos-Cars-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-Dieses **Chileautos Cars Listings Dataset Sample** umfasst **17.212 Datensätze** und wurde mithilfe der **Bright Data API** extrahiert.
+Dieses **Chileautos Cars Listings Dataset-Beispiel** umfasst **17.212 Einträge** und wurde mithilfe der **Bright Data API** extrahiert.
 
-## Data Points
+## Datenpunkte
 
-| Field Name | Description |
+| Feldname | Beschreibung |
 |------------|-------------|
-| `url` | Die direkte URL zur einzelnen Fahrzeuganzeige auf der Chileautos-Website. |
-| `Marca` | Die Marke bzw. der Hersteller des aufgeführten Fahrzeugs. |
+| `url` | Die direkte URL zum einzelnen Fahrzeuginserat auf der Chileautos-Website. |
+| `Marca` | Die Marke oder der Hersteller des gelisteten Fahrzeugs. |
 | `Modelo` | Das spezifische Modell des Fahrzeugs. |
-| `Ano` | Das Jahr, in dem das Fahrzeug hergestellt wurde. |
-| `Variante` | Die Variante bzw. Ausstattungsstufe des Fahrzeugs, falls zutreffend. |
-| `Kilometraje` | Die Gesamtkilometerzahl, die das Fahrzeug gefahren wurde. |
+| `Ano` | Das Baujahr des Fahrzeugs. |
+| `Variante` | Die Variante oder Ausstattungslinie des Fahrzeugs, falls zutreffend. |
+| `Kilometraje` | Die insgesamt vom Fahrzeug gefahrenen Kilometer. |
 | `Condicion` | Der Zustand des Fahrzeugs, der angibt, ob es neu oder gebraucht ist. |
-| `Combustible` | Die Art des Kraftstoffs, den das Fahrzeug verwendet, z. B. Diesel oder Benzin. |
-| `Color` | Die Farbe des Fahrzeugexterieurs. |
+| `Combustible` | Die Kraftstoffart des Fahrzeugs, z. B. Diesel oder Benzin. |
+| `Color` | Die Farbe des Fahrzeugäußeren. |
 | `Transmision` | Die Art des Getriebes, z. B. manuell oder automatisch. |
 | `Seller1` | Name des primären Verkäufers, häufig aus Datenschutzgründen anonymisiert. |
 | `Seller2` | Name des sekundären Verkäufers, falls zutreffend, ebenfalls anonymisiert. |
-| `Unico_Dueno` | Gibt an, ob das Fahrzeug einen einzigen Besitzer hatte. |
+| `Unico_Dueno` | Gibt an, ob das Fahrzeug nur einen Vorbesitzer hatte. |
 | `description` | Eine kurze Beschreibung des Fahrzeugs, die seine Merkmale und seinen Zustand hervorhebt. |
-| `price` | Der Angebotspreis für das Fahrzeug in chilenischen Pesos. |
+| `price` | Der Angebotspreis des Fahrzeugs in chilenischen Pesos. |
 | `location` | Der geografische Standort innerhalb Chiles, an dem das Fahrzeug verfügbar ist. |
-| `create_date` | Das Datum, an dem die Anzeige auf der Plattform erstellt wurde. |
-| `Image_URL` | URL zu einem Bild des Fahrzeugs aus der Anzeige. |
+| `create_date` | Das Datum, an dem das Inserat auf der Plattform erstellt wurde. |
+| `Image_URL` | URL zu einem Bild des Fahrzeugs aus dem Inserat. |
 | `phone1` | Primäre Kontakttelefonnummer des Verkäufers. |
 | `phone2` | Sekundäre Kontakttelefonnummer des Verkäufers, falls verfügbar. |
-| `email` | Kontakt-E-Mail-Adresse des Verkäufers. |
+| `email` | Kontakt-E-Mail des Verkäufers. |
 | `direccion` | Die Adresse, an der sich das Fahrzeug befindet oder besichtigt werden kann. |
 | `Tipo_de_vendedor` | Kategorie des Verkäufers, z. B. Privatperson oder Händler. |
 | `Comuna` | Die spezifische Gemeinde oder Kommune in Chile, in der das Fahrzeug gelistet ist. |
 | `Propietarios` | Anzahl der Vorbesitzer des Fahrzeugs. |
-| `Premium` | Gibt an, ob es sich bei der Anzeige um eine Premium-Werbung handelt. |
+| `Premium` | Gibt an, ob das Inserat eine Premium-Anzeige ist. |
 | `Category` | Die Kategorie des Fahrzeugs, z. B. SUV, Limousine usw. |
-| `posting_id` | Eindeutige Kennung der Anzeige auf der Plattform. |
-| `URL` | Ein weiteres URL-Feld, möglicherweise redundant, für den Zugriff auf die Anzeige. |
-| `premium` | Doppelfeld, das den Premium-Status der Werbung angibt. |
-| `Seller_ID` | Anonymisierte eindeutige Kennung des Verkäufers. |
-| `codigo_publicacion` | Code oder Kennung für die Veröffentlichung der Anzeige. |
+| `posting_id` | Eindeutige Kennung für das Inserat auf der Plattform. |
+| `URL` | Ein weiteres URL-Feld, möglicherweise redundant, für den Zugriff auf das Inserat. |
+| `premium` | Doppeltes Feld, das den Premium-Status der Anzeige angibt. |
+| `Seller_ID` | Anonymisierte eindeutige Kennung für den Verkäufer. |
+| `codigo_publicacion` | Code oder Kennung für die Veröffentlichung des Inserats. |
 
-## Use Cases
+
+## Anwendungsfälle
 
 ### 1. Marktanalyse und Trends
-Analysieren Sie Markttrends im chilenischen Automobilsektor, indem Sie Daten zu Marken, Modellen und Preisen im Zeitverlauf untersuchen.
+Analysieren Sie Markttrends im chilenischen Automobilsektor, indem Sie Daten zu Fahrzeugmarken, Modellen und Preisen im Zeitverlauf untersuchen.
 
 ### 2. Wettbewerbsfähige Preisstrategie
-Nutzen Sie den Datensatz, um Fahrzeugpreise mit Wettbewerbern zu benchmarken, und unterstützen Sie so strategische Preisentscheidungen für Autohäuser.
+Nutzen Sie den Datensatz, um Fahrzeugpreise mit denen der Konkurrenz zu vergleichen und so strategische Preisentscheidungen für Autohäuser zu unterstützen.
 
-### 3. Einblicke in das Konsumentenverhalten
-Untersuchen Sie Präferenzen und Verhaltensweisen von Konsumenten, indem Sie in Gebrauchtwagenanzeigen den Zustand sowie Präferenzen hinsichtlich Getriebe- und Kraftstofftyp analysieren.
+### 3. Einblicke in das Verbraucherverhalten
+Untersuchen Sie Verbraucherpräferenzen und -verhalten, indem Sie den Zustand, das Getriebe und die Kraftstoffart in Gebrauchtwageninseraten analysieren.
 
-## File Formats
+
+
+## Dateiformate
 
 Der Datensatz ist in mehreren Formaten verfügbar:
-- **CSV** (in diesem Sample enthalten)
+- **CSV** (in diesem Beispiel enthalten)
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
-- **Compressed (.gz)**
+- **Komprimiert (.gz)**
 
-## Delivery Options
+## Bereitstellungsoptionen
 
-- **Email**
-- **API Download**
+- **E-Mail**
+- **API-Download**
 - **Webhook**
 - **Amazon S3**
 - **Google Cloud Storage**
@@ -77,21 +80,21 @@ Der Datensatz ist in mehreren Formaten verfügbar:
 - **Snowflake**
 - **SFTP**
 
-## Update Frequency
+## Aktualisierungshäufigkeit
 
 Datensätze können nach verschiedenen Zeitplänen aktualisiert werden:
-- **Once** (einmalige Lieferung)
-- **Daily**
-- **Weekly**
-- **Monthly**
-- **Quarterly**
-- **Custom schedules**
+- **Einmalig** (einmalige Bereitstellung)
+- **Täglich**
+- **Wöchentlich**
+- **Monatlich**
+- **Vierteljährlich**
+- **Benutzerdefinierte Zeitpläne**
 
-## Data Enrichment
+## Datenanreicherung
 
-Erweitern Sie Ihren Datensatz um zusätzliche Datenpunkte entsprechend Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Enrichment-Optionen.
+Erweitern Sie Ihren Datensatz mit zusätzlichen Datenpunkten basierend auf Ihren spezifischen Anforderungen. Kontaktieren Sie uns für benutzerdefinierte Anreicherungsoptionen.
 
-**[Rufen Sie den vollständigen Chileautos Cars Listings-Datensatz ab](https://brightdata.de/products/datasets/chileautos)**
+**[Holen Sie sich den vollständigen Chileautos Cars Listings-Datensatz](https://brightdata.de/products/datasets/chileautos)**
 
 ---
 
